@@ -23,7 +23,7 @@ function playGame(playerChoice) {
     document.getElementById('result').innerText = `You chose ${playerChoice}, computer chose ${computerChoice}. ${result}`;
 }
 
-// Event listeners for button clicks
+
 document.getElementById('rock').addEventListener('click', function() {
     playGame('rock');
 });
