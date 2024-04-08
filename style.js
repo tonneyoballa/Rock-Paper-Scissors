@@ -17,7 +17,6 @@ function determineWinner(playerChoice, computerChoice) {
     }
 }
 
-// Function to play the game
 function playGame(playerChoice) {
     const computerChoice = getComputerChoice();
     const result = determineWinner(playerChoice, computerChoice);
