@@ -9,3 +9,11 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+button {
+    width: 50px;
+    padding: 20px;
+    font-size: 21px;
+    color: snow;
+    background-color: lightblue;
+}
