@@ -4,7 +4,7 @@ function getComputerChoice(){
     return choices[randomNumber];
 }
 
-// Function to determine winner
+
 function determineWinner(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
         return 'It\'s a tie!';
