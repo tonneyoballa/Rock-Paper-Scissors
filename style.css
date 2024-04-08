@@ -14,18 +14,6 @@ body {
     padding: 100px;
 }
 
-button {
-    width: 80px;
-    margin: 2%;
-    border: 2px solid #414140;
-    border-radius: 8px;
-    padding: 10px;
-    font-size: 14px;
-    color: #f9f8ff;
-    background-color: rgba(12, 30, 45, 0.6);
-    backdrop-filter: blur(14px);
-}
-
 h3 {
     font-size: 24px;
     font-family: 'EB Garamond', serif;
