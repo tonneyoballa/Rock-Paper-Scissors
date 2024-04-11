@@ -1,36 +1,52 @@
-function getComputerChoice(){
-    const choices = ['rock','paper','scissors'];
-    const randomNumber = Math.floor(Math.random() * 3);
-    return choices[randomNumber];
+// Write code below 💖
+
+//0 = Rock;
+//1 = Paper
+//2 = Scissors
+
+const player = 3;
+computer = Math.floor(Math.random() * 3)
+
+if (player === 0){
+  if (computer == 0){
+    console.log("It's a tie. Lets go again!")
+}
+  else if(computer === 1){
+    console.log("Computer Wins")
+  }
+  else if(computer === 2){
+    console.log("Player Wins")
+  }
+  else{
+    console.log("Error!")
+  }
 }
 
-
-function determineWinner(playerChoice, computerChoice) {
-    if (playerChoice === computerChoice) {
-        return 'It\'s a tie!';
-    } else if ((playerChoice === 'rock' && computerChoice === 'scissors') ||
-               (playerChoice === 'paper' && computerChoice === 'rock') ||
-               (playerChoice === 'scissors' && computerChoice === 'paper')) {
-        return 'You win!';
-    } else {
-        return 'Computer wins!';
-    }
+if (player === 1){
+  if (computer == 1){
+    console.log("It's a tie. Lets go again!")
 }
-
-function playGame(playerChoice) {
-    const computerChoice = getComputerChoice();
-    const result = determineWinner(playerChoice, computerChoice);
-    document.getElementById('result').innerText = `You chose ${playerChoice}, computer chose ${computerChoice}. ${result}`;
+  else if(computer === 3){
+    console.log("Computer Wins")
+  }
+  else if(computer === 0){
+    console.log("Player Wins")
+  }
+  else{
+    console.log("Error!")
+  }
 }
-
-document.getElementById('rock').addEventListener('click', function() {
-    playGame('rock');
-});
-
-document.getElementById('paper').addEventListener('click', function() {
-    playGame('paper');
-});
-
-document.getElementById('scissors').addEventListener('click', function() {
-    playGame('scissors');
-});
+if (player === 2){
+  if (computer == 2){
+    console.log("It's a tie. Lets go again!")
+}
+  else if(computer === 0){
+    console.log("Computer Wins")
+  }
+  else if(computer === 1){
+    console.log("Player Wins")
+  }
+  else{
+    console.log("Error!")
+  }
+}
