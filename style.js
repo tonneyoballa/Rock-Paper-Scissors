@@ -4,7 +4,7 @@
 //1 = Paper
 //2 = Scissors
 
-const player = 3;
+const player = 2;
 computer = Math.floor(Math.random() * 3)
 
 if (player === 0){
@@ -49,4 +49,6 @@ if (player === 2){
   else{
     console.log("Error!")
   }
+}  else {
+  console.log("An error occurred");
 }
