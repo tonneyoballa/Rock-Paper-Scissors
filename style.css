@@ -19,4 +19,6 @@ button {
     font-family: 'EB Garamond', serif;
     margin: 30px;
     padding: 10px;
+    border: 1px black solid;
+    border-radius: 2px;
 }
