@@ -8,4 +8,3 @@ if (num > 0.5) {
   console.log("Tails");
 }
 
-
