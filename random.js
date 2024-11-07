@@ -7,3 +7,12 @@ if (num > 0.5) {
 } else {
   console.log("Tails");
 }
+
+
+
+
+
+
+
+
+
